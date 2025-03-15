@@ -17,7 +17,7 @@ export default function Project({ index, title, description, blogUrl, setModal }
           {description}
         </p>
         <Link 
-          to={blogUrl}
+          to={`/nhunam-portfolio${blogUrl}`}
           className="flex items-center gap-2 text-sm font-medium hover:text-blue-600 transition-colors relative z-10"
           onClick={(e) => e.stopPropagation()}
         >
